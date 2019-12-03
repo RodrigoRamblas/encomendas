@@ -27,18 +27,16 @@ describe 'Login' do
             fill_in 'mat-input-63', with: 'cclaudiothiagoluisgoncalves@comercialmendes.net' #E-mail
             fill_in 'mat-input-25', with: '1125723170' #Telefone
             fill_in 'mat-input-26', with: '05162020' #CEP
-            fill_in 'mat-input-106', with: 'Rua Orlando Villas Boas' #Logradouro
             fill_in 'mat-input-28', with: '612' #Número
             fill_in 'mat-input-29', with: 'Casa 1' #Complemento
             click_button 'CIF'
             click_button 'Mercadoria'
-            sleep 3
-            click_button ' 2 - ENCOMENDAS (TE) ' #ERRO - Seleciona o produto
-            fill_in 'mat-input-74', with: '1' #Quantidade
-            fill_in 'mat-input-75', with: '1' #Peso
-            fill_in 'mat-input-76', with: '100' #Valor da nota
-            click_button 'mat-checkbox-23-input' #CT-e sem cubagem
-
+            click_button 'Selecione o produto'
+            #Falta implementar a Selecao do produto
+            #fill_in 'mat-input-74', with: '1' #Quantidade
+            #fill_in 'mat-input-75', with: '1' #Peso
+            #fill_in 'mat-input-76', with: '100' #Valor da nota
+            #click_button 'mat-checkbox-23-input' #CT-e sem cubagem
         end
     end
 end
