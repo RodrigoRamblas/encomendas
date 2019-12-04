@@ -20,4 +20,10 @@ module Helper
     def nome
         %w(Vicente Daniel Elias Lopes Cláudio Thiago Luís Gonçalves).sample
     end  
+    def remetentesemtabeladefrete
+        %w(14275114000159).sample
+    end  
+    def remetentecomtabeladefrete
+        %w(14912883000110).sample
+    end  
 end
